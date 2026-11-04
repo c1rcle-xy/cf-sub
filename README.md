@@ -22,7 +22,7 @@
 > - 软件按「原样」提供，不附带任何明示或暗示的担保。
 >
 > 完整条款见 [DISCLAIMER.md](DISCLAIMER.md)。
-
+> VibeCoding 项目，Model:deepseek-v4.1-flash-1017，本人用了感觉还不错ovo
 ---
 
 ## 目录
