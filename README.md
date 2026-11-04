@@ -8,6 +8,8 @@
 
 无外部依赖 · 无需构建 · 单文件 Worker · 数据存 KV · 零成本部署
 
+### VibeCoding 项目，Model:deepseek-v4.1-flash-1017，本人用了感觉还不错ovo
+
 </div>
 
 ---
@@ -22,7 +24,6 @@
 > - 软件按「原样」提供，不附带任何明示或暗示的担保。
 >
 > 完整条款见 [DISCLAIMER.md](DISCLAIMER.md)。
-> VibeCoding 项目，Model:deepseek-v4.1-flash-1017，本人用了感觉还不错ovo
 ---
 
 ## 目录
