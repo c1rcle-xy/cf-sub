@@ -1,0 +1,12 @@
+{
+  "name": "cf-sub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Workers 节点订阅管理服务",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "kv:create": "wrangler kv namespace create SUB_KV",
+    "tail": "wrangler tail"
+  }
+}

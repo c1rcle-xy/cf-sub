@@ -1,0 +1,23 @@
+name = "cf-sub"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+# 部署完成后默认地址：https://cf-sub.<你的账号子域>.workers.dev
+workers_dev = true
+
+# ---------- KV 命名空间 ----------
+# 先执行：npx wrangler kv namespace create SUB_KV
+# 把输出里的 id 填到下面
+[[kv_namespaces]]
+binding = "SUB_KV"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+# ---------- 普通变量 ----------
+[vars]
+# 是否允许管理员在后台填 URL 让服务端去拉订阅（默认允许）
+ALLOW_REMOTE_IMPORT = "true"
+
+# 注意：ADMIN_TOKEN 和 SUB_TOKEN 不要写在这里，
+# 用 wrangler secret put 设置，避免明文进仓库：
+#   npx wrangler secret put ADMIN_TOKEN
+#   npx wrangler secret put SUB_TOKEN     # 可选

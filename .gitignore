@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# Wrangler 本地状态（含模拟 KV 数据）
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# 备份文件，可能含真实节点信息
+backup.json
+*.backup.json
+sub_store*.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
